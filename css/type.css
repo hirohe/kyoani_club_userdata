@@ -1,0 +1,116 @@
+* {
+  font-family: "Microsoft YaHei" ! important;
+}
+#user_list {
+  margin: auto;
+}
+.list_iteam_odd {
+  display: inline-block;
+  width: 100%;
+  background-color: #EEEEEE;
+  text-align:left;
+  padding: 10px;
+}
+.list_iteam_odd div {
+  display: inline-block;
+  margin-right: 50px;
+  height: 40px;
+}
+.list_iteam_even {
+  display: inline-block;
+  width: 100%;
+  text-align:left;
+  padding: 10px;
+}
+.list_iteam_even div {
+  display: inline-block;
+  margin-right: 50px;
+  height: 40px;
+}
+.user_id {
+  width: 10%;
+}
+.user_name {
+  width: 25%;
+}
+.user_jointime {
+  width: 15%;
+}
+.user_remark {
+  width: 25%;
+}
+.link_space {
+  width: 100px;
+  background: url(../img/tv.ico) no-repeat;
+}
+.separator {
+  background-color: #666;
+  font-size: x-large;
+  font-style: oblique;
+}
+#input_box {
+  background-color: darkgray;
+  padding: 10px;
+}
+#edit_api {
+  width: 500px;
+  height: 40px;
+}
+#box_sort_by_time {
+  display: inline-block;
+  padding: 5px;
+  margin-right: 10px;
+  border-style:solid;
+  border-color: #000000;
+}
+#box_sort_by_time p{
+  display: inherit;
+}
+#sort_box {
+  display: inline-flex;
+}
+.sort_btn {
+  width: 100px;
+  height: 40px;
+  background: #999;
+  display: table;
+  margin: 5px;
+  text-align: center;
+}
+.sort_btn:hover {
+  background-color: #000;
+  color: #FFFFFF;
+}
+.sort_btn:active {
+  background-color: #880000;
+}
+.sort_btn p {
+  margin: 0px;
+  vertical-align: middle;
+  display: table-cell;
+}
+#plot_place {
+  width: 100%;
+  height: 400px;
+  padding: 0px;
+}
+#plot_overview {
+  width: 100%;
+  height: 150px;
+}
+span {
+  width: 30%;
+  display: inline-block;
+}
+[type=button] {
+  margin-right: 20px;
+  height: 40px;
+}
+a {
+  color:#000000;
+  font-size: large;
+}
+a:visited ,a:hover, a:focus ,a:active {
+  color: #BBB;
+  text-decoration :none;
+}
