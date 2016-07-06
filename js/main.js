@@ -77,7 +77,7 @@ $(document).ready(function() {
   });
 
   $("#export").on('click', function(event){
-    exportUsersToCSV.apply(this, ['export.csv']);
+    exportUsersToCSV.apply(this, ['userdata.csv']);
   });
 
 });
@@ -274,7 +274,7 @@ var getUserPages = function(api) {
   xhr.send();
 }
 
-//
+//计算每周数据
 var calcUsers = function() {
   var countWeekly = 0,
       countDaily = 0,
